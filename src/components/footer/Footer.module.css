@@ -1,0 +1,39 @@
+.wrapperFooter{
+    border: 1px solid #535252;
+  padding: 0 10px;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapperFooter a{
+    font-size: 20px;
+}
+.wrapperFooter .name{
+    font-size: 30px;
+}
+.wrapperMessage{
+    display: flex;
+    width:70%;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.wrapperFooter a {
+    text-decoration: none;
+    color:#fff;
+}
+
+@media(max-width:600px){
+
+    .wrapperFooter .name{
+        font-size: 26px;
+    }
+    .wrapperMessage{
+        width:95%
+    }
+    .wrapperFooter a {
+        font-size: 16px;
+    }
+}

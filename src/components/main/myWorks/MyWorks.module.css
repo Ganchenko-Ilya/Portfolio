@@ -1,0 +1,27 @@
+.myWorks{
+  border: 1px solid #535252;
+  padding: 0 10px;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.myWorks h2{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  padding: 10% 0;
+  flex-wrap: wrap;
+  
+align-items: center;
+}
+
+@media(max-width:640px){
+  .myWorks h2{
+    font-size: 30px;
+  }
+
+}

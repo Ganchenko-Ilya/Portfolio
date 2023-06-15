@@ -1,0 +1,35 @@
+.mySkills{
+  border: 1px solid #535252;
+  padding: 0 10px;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top:40px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  
+}
+.mySkills h2{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+@media(max-width:780px){
+  .wrapper{
+    justify-content: center;
+  }
+}
+@media(max-width:640px){
+  .mySkills h2{
+    font-size: 30px;
+    
+  }
+ 
+
+}

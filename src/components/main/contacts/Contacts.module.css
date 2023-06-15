@@ -2,11 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-   border: 1px solid #535252;
-  padding: 0 10px;
-  border-radius: 15px;
-  padding: 20px;
-  margin-top: 20px;
+   
   
 }
 .wrapper input, textarea {
@@ -38,4 +34,11 @@
   .contacts input,textarea{
     width:80%;
   }
+}
+.contactsWrapper{
+  border: 1px solid #535252;
+  padding: 0 10px;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
 }
